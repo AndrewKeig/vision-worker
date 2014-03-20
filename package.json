@@ -1,14 +1,30 @@
 {
   "name": "vision-worker",
-  "version": "0.0.0",
-  "private": true,
+  "description": "This module contains the source code for Advanced Express Web Application Development.",
+  "homepage": "https://github.com/AndrewKeig/vision-worker",
+  "version": "0.0.1",
+  "author": {
+    "name": "Andrew Keig",
+    "email": "andrew.keig@gmail.com"
+  },
   "scripts": {
     "start": "node populate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andrewkeig/vision-worker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AndrewKeig/vision-worker/issues"
   },
   "dependencies": {
     "vision-core": "git://github.com/AndrewKeig/vision-core.git#master",
     "node-schedule": "~0.1.9",
     "underscore": "~1.4.4",
     "async": "~0.2.9"
-  }
+  },
+  "keywords": [
+    "express",
+    "boilerplate"
+  ]
 }
